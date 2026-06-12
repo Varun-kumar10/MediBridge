@@ -1,0 +1,51 @@
+Patient_ID,Age,Gender,Disease
+1,25,Male,Flu
+2,40,Female,Diabetes
+3,35,Male,Asthma
+4,50,Female,Hypertension
+5,18,Male,Cold
+6,29,Female,Allergy
+7,45,Male,Heart Disease
+8,32,Female,Migraine
+9,60,Male,Anemia
+10,27,Female,Gastritis
+11,38,Male,COVID-19
+12,22,Female,Dengue
+13,41,Male,Malaria
+14,30,Female,Typhoid
+15,55,Male,Tuberculosis
+16,48,Female,Pneumonia
+17,36,Male,Bronchitis
+18,24,Female,Chickenpox
+19,43,Male,Hepatitis
+20,31,Female,Thyroid Disorder
+21,52,Male,Arthritis
+22,28,Female,Anxiety Disorder
+23,47,Male,Depression
+24,34,Female,Kidney Stone
+25,26,Male,Measles
+26,39,Female,Flu
+27,44,Male,Diabetes
+28,33,Female,Asthma
+29,58,Male,Hypertension
+30,21,Female,Cold
+31,37,Male,Allergy
+32,46,Female,Heart Disease
+33,29,Male,Migraine
+34,63,Female,Anemia
+35,35,Male,Gastritis
+36,42,Female,COVID-19
+37,25,Male,Dengue
+38,40,Female,Malaria
+39,53,Male,Typhoid
+40,49,Female,Tuberculosis
+41,31,Male,Pneumonia
+42,27,Female,Bronchitis
+43,20,Male,Chickenpox
+44,45,Female,Hepatitis
+45,38,Male,Thyroid Disorder
+46,57,Female,Arthritis
+47,24,Male,Anxiety Disorder
+48,50,Female,Depression
+49,36,Male,Kidney Stone
+50,28,Female,Measles

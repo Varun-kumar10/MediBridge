@@ -1,0 +1,27 @@
+Disease,Symptom_1,Symptom_2,Symptom_3,Symptom_4
+Flu,Fever,Cough,Headache,Fatigue
+Cold,Sneezing,Runny Nose,Cough,Sore Throat
+Diabetes,Frequent Urination,Increased Thirst,Fatigue,Blurred Vision
+Hypertension,Headache,Dizziness,Chest Pain,Fatigue
+Asthma,Shortness of Breath,Wheezing,Cough,Chest Tightness
+Allergy,Sneezing,Runny Nose,Itchy Eyes,Cough
+Hepatitis,Fatigue,Nausea,Abdominal Pain,Yellow Skin
+Chickenpox,Fever,Rash,Itching,Fatigue
+Measles,Fever,Rash,Cough,Runny Nose
+Cholera,Diarrhea,Dehydration,Nausea,Vomiting
+Kidney Stone,Back Pain,Painful Urination,Nausea,Blood in Urine
+Arthritis,Joint Pain,Swelling,Stiffness,Fatigue
+Thyroid Disorder,Weight Gain,Fatigue,Hair Loss,Cold Sensitivity
+Depression,Sadness,Fatigue,Sleep Problems,Loss of Interest
+Anxiety Disorder,Worry,Restlessness,Sweating,Rapid Heartbeat
+Heart Disease,Chest Pain,Shortness of Breath,Fatigue,Dizziness
+Migraine,Headache,Nausea,Light Sensitivity,Dizziness
+Anemia,Fatigue,Weakness,Dizziness,Pale Skin
+Gastritis,Abdominal Pain,Nausea,Bloating,Indigestion
+COVID-19,Fever,Cough,Loss of Taste,Fatigue
+Dengue,Fever,Headache,Joint Pain,Rash
+Malaria,Fever,Chills,Sweating,Headache
+Typhoid,Fever,Weakness,Abdominal Pain,Headache
+Tuberculosis,Cough,Fever,Night Sweats,Weight Loss
+Pneumonia,Fever,Cough,Chest Pain,Shortness of Breath
+Bronchitis,Cough,Fatigue,Wheezing,Chest Discomfort

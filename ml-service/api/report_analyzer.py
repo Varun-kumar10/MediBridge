@@ -1,8 +1,24 @@
+import os
 import pandas as pd
 
-# Load disease descriptions
-disease_df = pd.read_csv("../datasets/disease.csv")
+# -----------------------------
+# Get project base directory
+# -----------------------------
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# -----------------------------
+# Dataset path
+# -----------------------------
+DATASETS_DIR = os.path.join(BASE_DIR, "datasets")
+
+# -----------------------------
+# Load disease descriptions
+# -----------------------------
+disease_df = pd.read_csv(os.path.join(DATASETS_DIR, "disease.csv"))
+
+# -----------------------------
+# Report Analysis Function
+# -----------------------------
 def analyze_report(report_text):
 
     report_text = report_text.lower()
@@ -27,7 +43,6 @@ def analyze_report(report_text):
     scores = {}
 
     for disease, keywords in disease_keywords.items():
-
         score = 0
 
         for keyword in keywords:

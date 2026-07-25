@@ -1,10 +1,7 @@
+import AppRoutes from "./routes/AppRoutes";
+
 function App() {
-  return (
-    <>
-      <h1>MediBridge</h1>
-      <p>Welcome to MediBridge AI Healthcare System</p>
-    </>
-  );
+  return <AppRoutes />;
 }
 
 export default App;

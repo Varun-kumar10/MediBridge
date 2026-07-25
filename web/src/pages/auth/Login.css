@@ -1,0 +1,45 @@
+.login-options{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+}
+
+.remember-me{
+
+    display:flex;
+
+    align-items:center;
+
+    font-size:15px;
+
+    color:#475569;
+
+    cursor:pointer;
+
+    user-select:none;
+}
+
+.forgot-password{
+
+    font-size:15px;
+
+    color:#2563EB;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.forgot-password:hover{
+
+    color:#1D4ED8;
+
+    text-decoration:underline;
+}

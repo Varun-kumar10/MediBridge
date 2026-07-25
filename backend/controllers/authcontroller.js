@@ -419,6 +419,7 @@ const login = (req, res) => {
             password
 
         } = req.body;
+        console.log("📩 Login Request:", email);
 
         db.query(
 
@@ -451,13 +452,16 @@ const login = (req, res) => {
 
                 }
 
+
                 const user = result[0];
+                console.log("✅ User Found:", user.email);
 
                 const match =
                     await bcrypt.compare(
                         password,
                         user.password
                     );
+                    console.log("🔑 Password Match:", match);
 
                 if (!match) {
 

@@ -1,0 +1,47 @@
+.auth-button{
+
+    width:100%;
+
+    padding:16px;
+
+    background:#2563EB;
+
+    color:white;
+
+    border:none;
+
+    border-radius:12px;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:all .3s ease;
+}
+
+.auth-button:hover{
+
+    background:#1D4ED8;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 15px 30px rgba(37,99,235,.30);
+}
+
+.auth-button:active{
+
+    transform:translateY(0);
+}
+
+.auth-button:disabled{
+
+    background:#94A3B8;
+
+    cursor:not-allowed;
+
+    transform:none;
+
+    box-shadow:none;
+}

@@ -1,25 +1,18 @@
-import LandingPage from "../pages/landing/LandingPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import LandingPage from "../pages/landing/LandingPage";
 import Login from "../pages/auth/Login";
 import ForgotPassword from "../pages/auth/ForgotPassword";
-
-<Route path="/" element={<LandingPage />} />
-
-
-
-
-function DashboardPage() {
-  return <h1>📊 Dashboard</h1>;
-}
+import Dashboard from "../pages/dashboard/Dashboard";
 
 function AppRoutes() {
   return (
     <BrowserRouter>
       <Routes>
-        
+        <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </BrowserRouter>
   );

@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 
 import "./Login.css";
 import { loginUser } from "../../services/authService";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
 
@@ -19,6 +20,7 @@ function Login() {
 
     const [errors, setErrors] = useState({});
     const [loading, setLoading] = useState(false);
+    const navigate = useNavigate();
 
     const validateForm = () => {
 
@@ -65,6 +67,7 @@ function Login() {
             }
 
             alert(response.message);
+            navigate("/dashboard");
 
             // TODO:
             // Navigate to dashboard here

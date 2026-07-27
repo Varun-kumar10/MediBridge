@@ -13,7 +13,7 @@ function Header() {
       <div className="header-left">
 
         <h1>
-          Welcome Back, {user?.full_name} 👋
+          Welcome Back, {user?.full_name|| "User"} 👋
         </h1>
 
         <p>
@@ -42,7 +42,7 @@ function Header() {
 
             <span>{user?.full_name}</span>
 
-            <small>Patient</small>
+            <small>Healthcare Member</small>
 
           </div>
 

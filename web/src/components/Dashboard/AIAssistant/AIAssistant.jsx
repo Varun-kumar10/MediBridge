@@ -17,7 +17,7 @@ function AIAssistant() {
       </div>
 
       <h3>
-        Hello, {user?.full_name || "Patient"} 👋
+        Hello, {user?.full_name || "User"} 👋
       </h3>
 
       <p className="ai-subtitle">

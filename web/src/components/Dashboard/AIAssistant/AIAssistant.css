@@ -1,0 +1,68 @@
+.ai-card{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.ai-card:hover{
+    transform:translateY(-6px);
+}
+
+.ai-header{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:18px;
+}
+
+.ai-icon{
+    color:#0f4c81;
+    font-size:32px !important;
+}
+
+.ai-card h2{
+    color:#1e293b;
+}
+
+.ai-card h3{
+    margin:18px 0 10px;
+    color:#1e293b;
+}
+
+.ai-subtitle{
+    color:#64748b;
+    margin-bottom:20px;
+}
+
+.ai-tip{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:14px;
+    border-radius:12px;
+    background:#f5f7fb;
+    margin-bottom:12px;
+}
+
+.ai-tip svg{
+    color:#0f4c81;
+}
+
+.ai-button{
+    width:100%;
+    margin-top:20px;
+    padding:14px;
+    border:none;
+    border-radius:12px;
+    background:#0f4c81;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.ai-button:hover{
+    background:#0c3b64;
+}

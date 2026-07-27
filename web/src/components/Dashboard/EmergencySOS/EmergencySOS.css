@@ -1,0 +1,58 @@
+.sos-card {
+  background: white;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+.sos-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sos-header svg {
+  color: #ef4444;
+  font-size: 34px;
+}
+
+.sos-text {
+  color: #475569;
+  margin-bottom: 25px;
+}
+
+.sos-button {
+  width: 100%;
+  border: none;
+  background: #ef4444;
+  color: white;
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  transition: 0.3s;
+}
+
+.sos-button:hover {
+  background: #dc2626;
+}
+
+.nearest-hospital {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #475569;
+}
+
+.nearest-hospital svg {
+  color: #ef4444;
+}

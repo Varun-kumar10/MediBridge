@@ -1,0 +1,44 @@
+.recent-reports {
+  background: white;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.recent-reports h2 {
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+.report-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0;
+  border-bottom: 1px solid #ececec;
+}
+
+.report-item:last-child {
+  border-bottom: none;
+}
+
+.report-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.report-left svg {
+  color: #0f4c81;
+  font-size: 32px;
+}
+
+.report-left h4 {
+  margin: 0;
+}
+
+.report-left p {
+  margin-top: 5px;
+  color: gray;
+  font-size: 14px;
+}

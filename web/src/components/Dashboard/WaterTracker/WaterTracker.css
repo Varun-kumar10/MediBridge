@@ -1,0 +1,43 @@
+.water-card{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.water-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.water-header svg{
+    color:#2196f3;
+    font-size:34px;
+}
+
+.water-card h1{
+    color:#0f4c81;
+    margin:10px 0;
+}
+
+.progress-bar{
+    width:100%;
+    height:12px;
+    background:#e6eef9;
+    border-radius:20px;
+    margin:20px 0;
+    overflow:hidden;
+}
+
+.progress-fill{
+    height:100%;
+    background:#2196f3;
+    border-radius:20px;
+}
+
+.water-card span{
+    color:#64748b;
+    font-size:14px;
+}

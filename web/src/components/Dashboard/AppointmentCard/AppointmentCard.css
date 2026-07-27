@@ -1,0 +1,64 @@
+.appointment-card {
+  background: white;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+.appointment-card h2 {
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+.doctor-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.doctor-info svg {
+  font-size: 40px;
+  color: #0f4c81;
+}
+
+.doctor-info h3 {
+  margin: 0;
+}
+
+.doctor-info p {
+  margin: 5px 0 0;
+  color: gray;
+}
+
+.appointment-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.appointment-details div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.appointment-details svg {
+  color: #0f4c81;
+}
+
+.appointment-card button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: #0f4c81;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.appointment-card button:hover {
+  background: #0c3b64;
+}

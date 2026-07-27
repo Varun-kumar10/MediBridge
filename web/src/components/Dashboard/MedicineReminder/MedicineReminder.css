@@ -1,0 +1,55 @@
+.medicine-card{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.medicine-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.medicine-header svg{
+    color:#10b981;
+    font-size:34px;
+}
+
+.medicine-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:16px 0;
+    border-bottom:1px solid #ececec;
+}
+
+.medicine-item:last-child{
+    border-bottom:none;
+}
+
+.medicine-item h4{
+    margin:0;
+}
+
+.medicine-item p{
+    display:flex;
+    align-items:center;
+    gap:5px;
+    color:gray;
+    margin-top:5px;
+}
+
+.medicine-item button{
+    border:none;
+    padding:8px 18px;
+    border-radius:8px;
+    background:#10b981;
+    color:white;
+    cursor:pointer;
+}
+
+.taken{
+    color:#10b981;
+}

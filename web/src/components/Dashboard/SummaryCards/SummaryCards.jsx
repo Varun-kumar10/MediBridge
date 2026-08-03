@@ -7,56 +7,61 @@ import WaterDropIcon from "@mui/icons-material/WaterDrop";
 import BedtimeIcon from "@mui/icons-material/Bedtime";
 import MedicationIcon from "@mui/icons-material/Medication";
 
-import { getHeartRate } from "../../../services/healthService";
+import { getDashboardSummary } from "../../../services/dashboardService";
 
 function SummaryCards() {
 
-  const [heartRate, setHeartRate] = useState("--");
+  const [summary, setSummary] = useState({
+    heartRate: "--",
+    waterIntake: 0,
+    sleepHours: 0,
+    medicineCount: 0,
+  });
 
   useEffect(() => {
 
-    const fetchHeartRate = async () => {
+    const fetchSummary = async () => {
 
       try {
 
-        const response = await getHeartRate();
+        const response = await getDashboardSummary();
 
-        setHeartRate(response.heartRate);
+        setSummary(response.summary);
 
       } catch (error) {
 
-        console.error("Heart Rate Error:", error);
+        console.error(error);
 
       }
 
     };
 
-    fetchHeartRate();
+    fetchSummary();
 
   }, []);
 
   const cards = [
     {
       title: "Heart Rate",
-      value: `${heartRate} BPM`,
+      value: `${summary.heartRate} BPM`,
       icon: <FavoriteIcon />,
       color: "#ef4444",
     },
     {
       title: "Water Intake",
-      value: "1.8 / 3 L",
+      value: `${summary.waterIntake} ml`,
       icon: <WaterDropIcon />,
       color: "#3b82f6",
     },
     {
       title: "Sleep",
-      value: "7h 30m",
+      value: `${summary.sleepHours} hrs`,
       icon: <BedtimeIcon />,
       color: "#8b5cf6",
     },
     {
       title: "Medicines",
-      value: "3 Today",
+      value: `${summary.medicineCount} Today`,
       icon: <MedicationIcon />,
       color: "#10b981",
     },
@@ -64,14 +69,8 @@ function SummaryCards() {
 
   return (
     <div className="summary-cards">
-
       {cards.map((card, index) => (
-
-        <div
-          className="summary-card"
-          key={index}
-        >
-
+        <div className="summary-card" key={index}>
           <div
             className="card-icon"
             style={{ background: card.color }}
@@ -80,17 +79,11 @@ function SummaryCards() {
           </div>
 
           <div className="card-content">
-
             <h4>{card.title}</h4>
-
             <h2>{card.value}</h2>
-
           </div>
-
         </div>
-
       ))}
-
     </div>
   );
 }
